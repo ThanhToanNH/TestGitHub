@@ -1,0 +1,46 @@
+cd .. //lui ve 1 tep
+cd <TenTep> // mo toi teo con trong nhannh tep dang o (luu ys chi can nhan chu cai dau cua tep + tab se dc goi y)
+ls //xem cac flie co trong fouder
+dir//xem cac file co trong fouder
+mkdir "ten thumuc can tao" //tao fouder moi
+rm "ten flie" //xoa flie
+touch "toan.docx" //tao flie moi
+echo "Nd them vao flie" >> tenFlie can then   // > no de len nd trc khi them se bi mat, >> ko bi de
+cat "Tenfile" //xemnd trong file co gi
+
+git config -l --global
+git config -l --local //xem ai da dang nhap va dung git
+
+git config --global user.name "Ten" //dang nhap vao git
+git config --global user.email "123@gmail.com" //dang nhap vao git
+git config --local user.name "ten" //dang nhap vao git bang ca  nhan
+git config --local user.email "123toan@gmail.com" //dang nhap vao git bang ca nhan
+
+
+git add <Ten file> // them tep vao index
+git add . //them tat ca tep
+git commit -m "Noi dung" //tao commit -> repository
+git status //suw khac  biet giua 3 cay (work -> area -> repository)
+git diff //so sanh voi commit cuoi cung
+git log //xem lich su
+
+
+git init --bare "Ten respository" //tao ra thu muc repository
+git clone "Ten thu muc trung tam Repository" "ten file can clone ve" //tai thu muc tren repository ve thu muc may can lam viec
+
+git fetch //xem nd file vua push len repository so voi fie thu muc o may co gi khac biet ko 
+git push "Tenflie" //day file len repositopry
+git pull "Ten file" // down file xuoong thu muc o may
+
+
+git remote add origin "duong link repository GitHub" // ket noi repository cua GitHub voi maytinh
+git config --local user.name "ThanhToanNH" //dang nhap tk GitHub vao thu muc vua ket noi trong 
+mtinh voi repository cua GitHub
+git config --local user.email "toan@gmail.com"
+
+git branch -l //nhánh master tren may tinh local
+git branch -M main //thay doi nhanh master trong maytinh thnah nhanh main tren GitHub
+
+
+xinChao
+sory!
